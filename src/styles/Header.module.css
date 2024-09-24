@@ -1,0 +1,22 @@
+.header {
+	background-color: #0070f3;
+	padding: 10px;
+	color: white;
+	text-align: center;
+}
+
+.navList {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.navList li {
+	margin: 0 15px;
+}
+
+.navList a {
+	color: white;
+}
