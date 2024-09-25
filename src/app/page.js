@@ -19,7 +19,7 @@ export default function Home() {
 			<h1 className={styles.title}>Welcome to the Home Page</h1>
 			<DynamicButton
 				label='Click me'
-				onClick={() => console.log("Clicked on the home page")}
+				onClick={() => alert("Clicked on the home page")}
 			/>
 			<ThemeSwitcher onThemeChange={handleThemeChange} />
 		</div>

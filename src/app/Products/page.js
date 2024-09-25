@@ -1,18 +1,23 @@
 import FilterableList from "@/components/FilterableList";
 import Header from "@/components/Header";
+import styles from "@/styles/ListPages.module.css";
 
 const products = [
-    { name: "Product 1" },
-    { name: "Product 2" },
-    { name: "Product 3" },
-  ];
-  
-  export default function Products() {
-    return (
-      <div>
-        <Header title="Products" />
-        <h1>Our Products</h1>
-        <FilterableList items={products} />
-      </div>
-    );
-  }
+	{ name: "Laptop" },
+	{ name: "Smartphone" },
+	{ name: "Headphones" },
+	{ name: "Smartwatch" },
+	{ name: "Monitor" },
+	{ name: "Gaming Console" },
+	{ name: "Wireless Keyboard" },
+];
+
+export default function Products() {
+	return (
+		<div className={styles.container}>
+			<Header title='Services and Products' />
+			<h1 className={styles.title}>Our Products</h1>
+			<FilterableList items={products} />
+		</div>
+	);
+}

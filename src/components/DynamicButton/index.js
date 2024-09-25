@@ -10,7 +10,7 @@ export default function DynamicButton({ label, onClick }) {
 				color: "#fff",
 				border: "none",
 				cursor: "pointer",
-				margin: "10px 0",
+				margin: "10px 5px",
 			}}>
 			{label}
 		</button>

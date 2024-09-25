@@ -19,7 +19,7 @@ export default function Contact() {
 			<h1 className={styles.title}>Contact Us</h1>
 			<DynamicButton
 				label='Click me'
-				onClick={() => console.log("Clicked on the contact page")}
+				onClick={() => alert("Clicked on the contact page")}
 			/>
 			<ThemeSwitcher onThemeChange={handleThemeChange} />
 		</div>
